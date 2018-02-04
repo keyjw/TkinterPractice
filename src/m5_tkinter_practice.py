@@ -41,6 +41,7 @@ def main():
 
     hello_goodbye = ttk.Button(frame1, text='Check for ok')
     hello_goodbye.grid()
+    hello_goodbye['command'] = lambda: print('ok')
 
     # ------------------------------------------------------------------
     # DONE: 6. After reading and understanding the m4e module,
